@@ -225,3 +225,37 @@ Turma: 1TIAPR
 O projeto demonstrou como técnicas modernas de Inteligência Artificial podem ser utilizadas para criar soluções inteligentes e interativas voltadas para análise de público e personalização de experiência.
 
 Mesmo sendo um protótipo acadêmico, a arquitetura desenvolvida possui potencial de adaptação para aplicações reais em diferentes contextos comerciais e tecnológicos.
+
+# Dataset Utilizado
+
+O projeto utiliza o dataset **UTKFace**, amplamente utilizado em pesquisas de Visão Computacional e estimativa de idade facial.
+
+O dataset está disponível publicamente no Kaggle através do link abaixo:
+
+[UTKFace Dataset no Kaggle](https://www.kaggle.com/datasets/jangedoo/utkface-new?utm_source=chatgpt.com)
+
+O UTKFace possui mais de 20 mil imagens faciais anotadas com:
+
+* idade
+* gênero
+* etnia
+
+As imagens apresentam diferentes:
+
+* iluminações
+* expressões faciais
+* ângulos
+* resoluções
+* oclusões
+
+Essas características tornam o dataset adequado para tarefas de:
+
+* detecção facial
+* classificação etária
+* reconhecimento facial
+* estimativa de idade
+
+Neste projeto foi utilizada uma amostra reduzida do dataset para otimizar o processamento no Google Colab e facilitar os testes da pipeline YOLOv8 + DeepFace. ([Kaggle][1])
+
+[1]: https://www.kaggle.com/datasets/jangedoo/utkface-new?utm_source=chatgpt.com "UTKFace"
+
